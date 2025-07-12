@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudadanía Digital 7: Creadores de Olas Positivas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">🧑‍💻</span> <strong>Ciudadanía Digital Misión 7:Creadores de Olas Positivas</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+                <li><a href="#activity-6">6</a></li>
+                <li><a href="#activity-7">7</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" (ANTES ACTIVITY-0) -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Comprender cómo las publicaciones propias afectan a otros.</li>
+                                        <li>Tomar conciencia del impacto emocional de las publicaciones.</li>
+                                        <li>Elegir mensajes positivos y motivadores.</li>
+                                        <li>Promover una cultura digital empática.</li>
+                                        <li>Elegir mensajes y contenidos que promuevan un ambiente respetuoso y empático.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">Activación Gnius Club</strong></li>
+                                        <li><strong class="tactic-highlight">Recuerdo Relámpago</strong></li>
+                                        <li><strong class="tactic-highlight">Objetivos de la Misión: "I Can Statement"</strong></li>
+                                        <li><strong class="tactic-highlight">Brain Boost</strong></li>
+                                        <li><strong class="tactic-highlight">Gamer Express</strong></li>
+                                        <li><strong class="tactic-highlight">Challenge</strong></li>
+                                        <li><strong class="tactic-highlight">Clave Secreta de la Misión</strong></li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Comentarios positivos creados para amplificar mensajes neutrales en el cuaderno.</li>
+                                        <li>Lista de estrategias de comunicación positiva identificadas por el equipo.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Chat de "Ada" activo y funcionando.</li>
+                                        <li>Presentación de diapositivas.</li>
+                                        <li>Cuadernos y colores.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet.</li>
+                                                <li>Asegurar disponibilidad y carga de los dispositivos físicos (ej. tabletas, ordenadores).</li>
+                                                <li>Tener la presentación de diapositivas lista y en orden.</li>
+                                                <li>Probar el chat "Ada" para asegurar su operatividad.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Activación Gnius Club ⏰ 3 minutos</h2>
+                <p>Presentar la dinámica de activación para calentar la creatividad positiva.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Activación Gnius Club ⏰ 1 minutos</h3>
+                            <p>Proyectar Diapositiva 2. Activación: Tormenta de Emojis Felices.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Equipo, bienvenidos a la misión! 🚀 Para activar nuestra energía creadora, vamos a una Tormenta de Emojis Felices. En equipos, tienen 60 segundos para dibujar en su cuaderno todos los emojis que les vengan a la mente que hagan sentir bien a la gente. ¡Listos, fuera!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Activación Gnius Club ⏰ 2 minutos</h3>
+                            <p>Los equipos dibujan. Al final, el maestro pide que todos levanten sus cuadernos para crear una "galería de buena vibra" y destaca los más originales.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡5, 4, 3, 2, 1... Manos arriba! ¡Wow, miren esa explosión de alegría! 😂👍🎉💖✨ ¡Ese poder de crear sonrisas con una simple imagen es exactamente lo que vamos a usar hoy! ¡Genial!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: Recuerdo Relámpago ⏰ 4 minutos</h2>
+                <p>Activar el conocimiento previo usando la pregunta clave de la misión anterior.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 3. Recuerdo Relámpago: El Código Ninja.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Increíble! Ahora, recordemos nuestro entrenamiento ninja. La última vez, aprendimos el código de 3 pasos para protegernos. Y nos dejó una pregunta: Si ya somos ninjas que se protegen a sí mismos, ¿cómo nos convertimos en héroes que protegen a TODA la comunidad digital?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>En parejas, discuten la pregunta. El maestro conecta sus ideas con la misión de hoy.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Discutan con su compañero ninja, ¿qué hace un héroe además de defenderse? (Pausa). ¡Excelentes ideas! 'Ayuda a otros', 'construye', 'inspira'... ¡Exacto! Un ninja se protege. Un héroe, además, ¡construye un mundo mejor! Hoy pasamos de la defensa al ataque... ¡de la buena onda!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: Objetivos de la Misión: "I Can Statement" ⏰ 3 minutos</h2>
+                <p>Presentar la meta de la sesión con una metáfora de impacto y resonancia.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Proyectar Diapositiva 4. Objetivos de la Misión. (Imagen de una mano lanzando una piedrita a un lago digital, y las ondas se convierten en corazones y likes).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Equipo! Nuestra misión de hoy es convertirnos en CREADORES DE OLAS POSITIVAS. Cada comentario, cada 'like', cada publicación que hacemos es como una piedrita en un lago. Hoy aprenderemos a lanzar piedritas que creen olas gigantes de energía positiva que lleguen a todos. 🌊</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Los estudiantes escriben o dibujan su "I Can Statement" y lo comparten.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Cada uno creará su propia ola. Mi reto es: 'Yo puedo escribir un comentario que transforme un día regular en uno genial'. Ahora ustedes, en su bitácora, completen: 'Hoy mi superpoder será crear...'. ¡Compártanlo con su compañero de equipo!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: Brain Boost ⏰ 5 minutos</h2>
+                <p>Despertar curiosidad con una historia de dos resultados paralelos basados en el tipo de comentario.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 5. Brain Boost: El Caso del Primer Juego.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Les presento a Ana. Está súper emocionada porque acaba de programar su primer mini-juego. Es muy simple, pero es suyo. Con nervios, comparte una captura de pantalla en el foro de la clase de computación.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 6. Las Dos Olas. (Imagen dividida: de un lado, un comentario "Meh" y Ana triste. Del otro, un comentario positivo y Ana sonriendo, con ideas nuevas).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Imaginemos dos futuros. Futuro A: Recibe un comentario que dice: 'Ah, sí. Mi primer juego era así. Ya mejorarás'. Futuro B: Recibe otro que dice: '¡Qué genial, Ana! ¡Ya funciona! Me encanta el color del personaje. ¡Sigue así!'. Pregunta Provocadora: ¿Cuál de los dos comentarios creen que le daría a Ana más ganas de crear su segundo juego? ¿Por qué?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Brain Boost ⏰ 1 minutos</h3>
+                            <p>Conexión a la Misión (sin diapositiva, es parte del diálogo).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Por supuesto! ¡El futuro B! El primer comentario no es malo, pero es una ola fría 🥶. El segundo es una ola cálida que te impulsa a seguir nadando 🏄‍♀️. ¡Hoy aprenderemos a ser surfistas expertos de la buena energía y a crear olas que levanten a los demás!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gamer Express ⏰ 10 minutos</h2>
+                <p>Practicar la elección de interacciones que generen un impacto positivo.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Gamer Express ⏰ 10 minutos</h3>
+                            <p>Proyectar Diapositiva 7. Gamer Express: El Simulador de Olas y Timer de 10 min.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Es hora de ir al simulador de olas! Entren al Gamer Express y jueguen la misión 'Surfista de la Empatía'. Verán diferentes publicaciones. Su misión: elegir el comentario o la reacción que genere la mayor ola de energía positiva para toda la comunidad. ¡A surfear!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-6">
+                <h2>⚡ Actividad 6: Challenge ⏰ 10 minutos</h2>
+                <p>Introducir el reto creativo y práctico como una misión de "amplificación".</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Challenge ⏰ 1 minutos</h3>
+                            <p>Proyectar Diapositiva 8. Challenge: El Amplificador de Positividad.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Excelentes surfistas! Ahora, la prueba de fuego. No solo van a elegir olas, ¡van a crearlas! Se convertirán en DJs de la Buena Vibra usando el Amplificador de Positividad.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Challenge ⏰ 1 minutos</h3>
+                            <p>Proyectar Diapositiva 9. El Tablero de Anuncios.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Este es el tablero de anuncios digital de la escuela. Hay noticias, pero son un poco... grises. Su misión como DJs no es borrar nada, sino ponerle música y color. Van a tomar estos mensajes neutrales y añadirles un comentario que los haga positivos y motivadores. 📣</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Challenge ⏰ 4 minutos</h3>
+                            <p>Proyectar Diapositiva 10. Los Mensajes a Amplificar. En sus cuadernos, los equipos escriben un comentario positivo para cada mensaje proyectado.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡A mezclar, DJs! Aquí están sus 3 pistas 'grises'. En su cuaderno, escriban debajo de cada una un comentario que le suba el volumen a la buena onda:<br>1. Anuncio: 'Recuerden que mañana es el examen de matemáticas.' <br>2. Noticia: 'El equipo de básquetbol perdió el partido de ayer 15-12.'<br> 3. Alerta: 'La clase de arte se cancela por lluvia.' <br> ¡Transformen esos datos en motivación! ¡Adelante!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Challenge ⏰ 4 minutos</h3>
+                            <p>Proyectar Diapositiva 11. Galería de Hits y Estrategias. Se comparten las "amplificaciones" y luego el maestro lanza la pregunta de estrategia.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Tiempo! Equipo 'Buena Onda', ¿qué comentario le pusieron al anuncio del examen? ¡Wow, '¡Éxito a todos! ¡A demostrar lo que sabemos!' es un súper hit! <br>Ahora, la pregunta de millón para todos: Al crear estos comentarios geniales, ¿qué estrategias usaron? ¿Qué se necesita para tener una comunicación positiva? Pensemos en 2 o 3 ideas. (Ej: 'Ponerse en el lugar del otro', 'Enfocarse en lo bueno', 'Dar ánimos'). ¡Anótenlas!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-7">
+                <h2>⚡ Actividad 7: Clave Secreta de la Misión ⏰ 5 minutos</h2>
+                <p>Consolidar la idea principal de la sesión con una pregunta poderosa.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Clave Secreta de la Misión ⏰ 1 minutos</h3>
+                            <p>Proyectar Diapositiva 12. Clave Secreta de la Misión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Han convertido un tablero aburrido en una fiesta de buena energía! Son oficialmente Creadores de Olas Positivas. Una última pregunta: ¿Cuál es el ingrediente secreto que le pusimos a todos nuestros mensajes?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 13. La Ecuación de la Onda Positiva. El maestro escucha respuestas (empatía, corazón) y presenta la ecuación.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡La empatía! ¡El corazón! ¡El pensar en el otro! ¡Exacto! Para que nunca olviden cómo crear buena vibra, esta es la Ecuación Mágica de la Onda Positiva: <br>✨ [ YO + MI VOZ ] + ❤️ = 🌊 ✨ <br>(Tú + Tus Palabras, con Corazón, crean una Onda Positiva)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>El maestro guía la repetición de la ecuación con gestos. Lanza la pregunta de conexión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Vamos a crear la ecuación con el cuerpo! ¡Señálense a ustedes mismos! [YO + MI VOZ] (hacen como que hablan). + (hacen una cruz con los brazos). ❤️ (manos en el corazón). = (signo de igual). 🌊 (hacen una ola con los brazos). ¡Genial! Guarden esta fórmula, porque nos deja una última pregunta: Si ya sabemos crear olas positivas, ¿cómo podemos unir todas nuestras olas para crear un verdadero tsunami de cambio bueno en nuestra comunidad? 🤔 ¡Nos vemos en la próxima y última misión!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
